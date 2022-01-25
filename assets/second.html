@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CovTrack</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawesome/css/all.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="icon" href="img/3625654.png">
+</head>
+
+<script language="JavaScript" type="text/javascript">
+  $(window).scroll(function() {     
+      var scroll = $(window).scrollTop();
+      if (scroll > 0) {
+          $("#nav").addClass("shadow-sm");
+      }
+      else {
+          $("#nav").removeClass("shadow-sm");
+      }
+  });
+</script>
+
+<body class="bg-white">
+
+  <!--NAVBAR START-->
+  <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-white fixed-top justify-content-center">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/3625654.png" width="45" height="45" alt="" class="d-inline-block align-top">
+        <div class="text d-inline-block align-top p-2 text-dark fw-bold">CovTrack</div>
+      </a>
+
+      <button class="navbar-toggler m-3" style="border: none;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
+          <li class="nav-item m-3">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item m-3">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item m-3">
+            <a class="nav-link" href="#">Contagion</a>
+          </li>
+          <li class="nav-item m-3">
+            <a class="nav-link" href="#">Symptomps</a>
+          </li>
+          <li class="nav-item m-3">
+            <a class="nav-link" href="#">Prevention</a>
+          </li>
+        </ul>
+
+        <button type="button" class="btn btn-outline-danger rounded-pill m-3 d-none d-md-block"> <i class="fas fa-phone-alt p-2"></i> Emergency Call</button>
+
+      </div>
+    </div>
+  </nav>
+  <!--NAVBAR END-->
+
+  <!--HOME SECTION START-->
+  <section class="home py-5 bg-white mt-5" id="home">
+    <div class="container-lg">
+      
+        <div class="row min-vh-100 align-items-center align-content-center">
+
+          
+          <div class="col-md-6 mt-5 text-center text-sm-start mt-md-0">
+            <span class="badge rounded-pill bg-pink mb-3">
+              <div class="text text-danger m-1 fw-lighter">
+                <i class="fas fa-info-circle mx-1"></i>Covid-19 Alert
+              </div>
+            </span>
+            <div class="home-text">
+              <h1 class="text-banner fw-bold display-3">Save yourself <br> Save the world.</h1>
+              <p class="mt-4 text-muted fs-4">Coronavirus disease (COVID-19) is an infectious disease caused by a new virus.</p>
+              <a class="btn btn-danger btn-lg mt-3 px-3 rounded-pill fs-6 shadow-lg" href="#">
+                <div class="text m-2">Check Symptomps</div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="home-img text-center">
+              <img class="mw-100" src="img/hero1_people.png" alt="">
+            </div>
+          </div>
+
+        </div>
+
+    </div>
+  </section>
+  <!--HOME SECTION END-->
+
+  <section class="bg-white m-0 p-0 m-md-5 p-md-5">
+
+    <div class="row p-4">
+      <div class="col-lg-12 col-md-12">
+          <div class="card border-light shadow-lg rounded">
+            
+            <div class="row justify-content-center mt-5">
+
+              <div class="col-md-3 p-3 m-md-0 p-md-0">
+                <div class="text text-center">
+                    <div class="text h1 text-red fw-bold">214</div>
+                    <div class="text fw-light">Affected Country</div>
+                </div>
+              </div>
+
+              <div class="col-md-3 p-3 m-md-0 p-md-0">
+                <div class="text text-center">
+                    <div class="text h1 text-red fw-bold">2,142,425</div>
+                    <div class="text fw-light">Confirmed Cases</div>
+                </div>
+              </div>
+
+              <div class="col-md-3 p-3 m-md-0 p-md-0">
+                <div class="text text-center">
+                    <div class="text h1 text-green fw-bold">2,142,425</div>
+                    <div class="text fw-light">Recovered Cases</div>
+                </div>
+              </div>
+
+              <div class="col-md-3 p-3 m-md-0 p-md-0">
+                <div class="text text-center">
+                    <div class="text h1 text-red fw-bold">2,142,425</div>
+                    <div class="text fw-light">Worldwide Death</div>
+                </div>
+              </div>
+
+              <div class="text text-center m-4">
+                <div class="text text-dark fw-lighter"><a class="text text-primary fw-lighter" href="">More details</a></div>
+              </div>
+
+            </div>
+            
+          </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="all-country mb-5">
+      <div class="container">
+        <div class="shadow-lg p-5">
+            <table class="table table-borderless p-5 m-5">
+                <thead>
+                  <tr>
+                    <th scope="col">Flag</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Cases</th>
+                    <th scope="col">Death</th>
+                    <th scope="col">Recovered</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><img class="" style="max-width: 40px;" src="https://disease.sh/assets/img/flags/id.png"></td>
+                    <td>Indonesia</td>
+                    <td>1,020,220</td>
+                    <td>234,443</td>
+                    <td>323,232</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+      </div>
+  </section>
+
+  <!--FOOTER START-->
+  <footer class="footer border-top py-4">
+    <div class="container-lg">
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="text-center text-muted">&copy; 2021 Lana Septiana</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--FOOTER END-->
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>  
+  

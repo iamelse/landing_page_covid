@@ -1,0 +1,70 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-pink {
+    background-color: #F8DDDD;
+}
+
+.text-banner {
+    color: #1c0942;
+}
+
+.btn-banner {
+    background-color: #ee0047;
+}
+
+.text-red {
+    color: #ee0047;
+}
+
+.text-green {
+    color: #2ed985;
+}
+
+.bg-dark-blue {
+    background-color: #1c0942;
+}
+
+.bg-badge {
+    background-color: #2f0f44;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #floating-card {
+      margin-top: -200px;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #floating-card {
+      margin-top: -200px;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #floating-card {
+      margin-top: -200px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #floating-card {
+      margin-top: -150px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #floating-card {
+      margin-top: -150px;
+  }
+}
