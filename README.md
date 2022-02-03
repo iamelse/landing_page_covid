@@ -20,3 +20,6 @@ A website that serves to display cases of the corona virus from around the world
 
 ## Note
 I got desain from here https://rb.gy/5galdp then i try to make a copy from that with HTML, CSS, and Bootstrap 5, all credit belongs to the creator.
+
+## References
+I got the data from https://disease.sh/
